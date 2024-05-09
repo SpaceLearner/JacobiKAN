@@ -22,7 +22,7 @@ Construct a ChebyKAN for MNIST
 ```python
 class MNISTJacobiKAN(nn.Module):
     def __init__(self):
-        super(MNISTChebyKAN, self).__init__()
+        super(MNISTJacobiKAN, self).__init__()
         self.jacobikan1 = JacobiKANLayer(28*28, 32, 4)
         self.ln1 = nn.LayerNorm(32) # To avoid gradient vanishing caused by tanh
         self.jacobikan2 = JacobiKANLayer(32, 16, 4)
