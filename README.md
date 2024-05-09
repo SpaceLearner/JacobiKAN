@@ -18,7 +18,7 @@ from JacobiKANLayer import JacobiKANLayer
 ```
 
 # Example
-Construct a ChebyKAN for MNIST
+Construct a JacobiKAN for MNIST
 ```python
 class MNISTJacobiKAN(nn.Module):
     def __init__(self):
