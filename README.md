@@ -66,19 +66,21 @@ Note that it's still not as good as MLPs. Detailed comparison is on the way.
 
 ---
 
-**Function Interpolation:** converge faster than MLPs when the function is (mostly) smooth.
+<!-- **Function Interpolation:** converge faster than MLPs when the function is (mostly) smooth.
 
 
 ![alt text](img/Interpolation_fix.png)
 
-ChebyKAN: [1, 8, 1] with 8 degree.
-MLP: [1, 128, 1] with Tanh.
+JacobiKAN: [1, 8, 1] with 8 degree.
+ChebyKAN:  [1, 8, 1] with 8 degree.
+MLP:     [1, 128, 1] with Tanh.
 
 With decent training, the MLP can achieve similar performance as ChebyKAN. Note that ChebyKAN shows some overfitting.
 
 However ChebyKAN converges much faster than MLP.
 
 ![alt text](img/Convergence_Speed.png)
+
 
 ChebyKAN: Adam, lr=0.01.
 MLP: Adam, lr=0.03.
@@ -90,4 +92,4 @@ MLP: Adam, lr=0.03.
 # Future Work
 More experiments and optimizations are needed to prove the correctness and effectiveness of ChebyKAN. 
 Not sure if the current parameters initialization is optimal. Maybe Xavier initialization is better.
-I'm not sure if the current implementation is correct. Any suggestions are welcome.
+I'm not sure if the current implementation is correct. Any suggestions are welcome. -->
