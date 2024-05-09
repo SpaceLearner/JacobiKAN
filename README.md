@@ -43,7 +43,7 @@ class MNISTJacobiKAN(nn.Module):
 Have a look at `Jacobi-KAN_MNIST.ipynb`, `Function_Interpolation_Test.ipynb`, and `Multivar_Interpolation_Test.ipynb` for more examples.
 
 # Experiment Results
-**MNIST:** ~97% accuracy after about 10 epochs with degree 3 JacobiKAN. Faster than ChebyKAN, which needs about 20 epochs and degree 4.
+**MNIST:** ~97% accuracy after about 10 epochs with degree 3 JacobiKAN. Faster and lower test loss than ChebyKAN, which needs about 20 epochs and degree 4.
 ```
 Epoch 1, Train Loss: 0.7438, Test Loss: 0.2603, Test Acc: 0.94
 Epoch 2, Train Loss: 0.2149, Test Loss: 0.1863, Test Acc: 0.95
